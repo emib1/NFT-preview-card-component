@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+ 
+
+
+
+/**                  Global Styles                 *****/
+
+*{
+    margin: 0;
+
+}
+
+
+
+html,
+body{
+    font-family: 'Outfit', sans-serif;
+    height: 100%;
+}
+
+
+
+body{
+
+    background-color:hsl(216, 50%, 16%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/******                Main container                 *********/
+.content-container{
+    width: 20rem;
+    background-color:  hsl(216, 50%, 16%);
+    padding: 2em;
+    border-radius: 2em;
+    box-shadow: 0px 2px 60px 5px hsl(215, 55%, 9%);
+}
+
+.equilibrium-img{
+    width: 100%;
+    position: relative;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+    border-radius: 1em; 
+}
+
+.content-container h1{
+    color: #fff;
+    margin: 1rem ;
+}
+
+.content-container p{
+    color:hsl(215, 51%, 70%);  
+    padding: 1rem;
+}
+
+
+
+/*********           eth-time section                      ***********/
+.eth-time{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+    border-color: hsl(215, 32%, 27%);
+    
+}
+
+.eth p{
+    color: hsl(178, 100%, 50%);
+}
+
+.eth, .time{
+    display: flex;
+    align-items: center;
+   
+}
+
+
+/********             Creator section                    ********/
+
+.creator{
+    display: flex; 
+    align-items: center; 
+    color: #fff;
+  margin-top: 1em;
+}
+
+
+.creator-name p{
+    color: hsl(215, 51%, 70%);
+}
+
+.image-avatar{
+    width: 2em;
+    border: 0.1em solid #fff;
+    border-radius: 2px;
+    border-radius: 100%;
+}
+
+
+
